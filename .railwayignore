@@ -1,0 +1,40 @@
+# Ficheiros a ignorar no Railway deploy
+
+# Desenvolvimento
+*.bat
+*.md
+!README.md
+!RAILWAY_DEPLOY.md
+
+# Configuração local
+config.js
+.env
+.env.local
+
+# Dependências (serão instaladas automaticamente)
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Temporários
+*.tmp
+temp/
+tmp/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Git
+.git/
+.gitignore
+
+# Outros
+*.bak
+*.backup

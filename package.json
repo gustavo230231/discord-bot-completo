@@ -1,0 +1,30 @@
+{
+  "name": "discord-loja-bot",
+  "version": "1.0.0",
+  "description": "Bot completo de Discord com sistema de loja, tickets, pagamentos e moderação",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "railway:start": "node index.js",
+    "postinstall": "echo 'Dependências instaladas com sucesso!'"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": ["discord", "bot", "loja", "tickets", "pagamentos", "railway"],
+  "author": "Kiro Bot Creator",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SEU_USERNAME/SEU_REPO.git"
+  }
+}
